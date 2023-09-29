@@ -5,5 +5,5 @@ count=0
 while [ $count -lt "10" ]
 do
     echo "Best School"
-    (( i + 1 ))
+    count=$(( i + 1 ))
 done
